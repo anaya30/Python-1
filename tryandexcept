@@ -1,0 +1,15 @@
+Q.1.Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+
+def compute():
+    return 5/0
+try:
+    compute()
+except ZeroDivisionError:
+    print('Something has happened, division by zero is undefined')
+
+Solution: 
+Something has happened, division by zero is undefined
+ 
+    
+    
